@@ -75,7 +75,7 @@ void ummp_demo(){
 int main(){
     pair<int, int> p = make_pair(10, 20);
     // cout << p.first<<"-"<<p.second<<endl;
-    ummp_demo();
+    mp_demo();
 }
 
 

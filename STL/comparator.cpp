@@ -24,7 +24,7 @@ void comparison(){
     s.insert(20);
     s.insert(30);
     s.insert(15);
-    s.insert(25);
+    s.insert(25);   
     s.insert(10);
 
     for(auto &setval: s){
