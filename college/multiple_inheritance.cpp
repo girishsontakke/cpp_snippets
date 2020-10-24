@@ -19,19 +19,19 @@ public:
 
 void M::get_m(int x)
 {
-    m = x;
+    this->m = x;
 }
 void N::get_n(int y)
 {
-    n = y;
+    this->n = y;
 }
 class P : public M, public N
 {
 
 public:
-    void display(void);
+    void display();
 };
-void P::display(void)
+void P::display()
 {
     cout << "m=" << m << endl;
     cout << "n=" << n << endl;
