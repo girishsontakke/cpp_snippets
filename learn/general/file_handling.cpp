@@ -18,10 +18,10 @@ int main()
 	string line; 
 
 	// by default openmode = ios::in|ios::out mode 
-	// Automatically overwrites the content of file, To append 
+	// Automatically overrides the content of file, To append 
 	// the content, open in ios:app 
 	// fio.open("sample.txt", ios::in|ios::out|ios::app) 
-	// ios::trunc mode delete all conetent before open 
+	// ios::trunc mode delete all content before open 
 	fio.open("sample.txt", ios::trunc | ios::out | ios::in); 
 
 	// Execute a loop If file successfully Opened 
