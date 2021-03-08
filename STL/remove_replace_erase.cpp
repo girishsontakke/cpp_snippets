@@ -1,19 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
 typedef vector<int> vi;
-typedef pair<int, int> pi;
-#define F first
-#define S second
-#define pb push_back
-#define mp make_pair
-#define elif else if
-#define fp(i, a, b) for(int i=a; i<b; i++)
-#define fpe(i, a, b) for(int i=a; i<=b; i++)
-#define fn(i, a, b) for(int i=a; i>b; i--)
-#define fne(i, a, b) for(int i=a; i>=b; i--)
-#define sq(a) (a)*(a)
 
 void RemoveErase(){
     cout << "we use remove erase method for sequence container\n";
